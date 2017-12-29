@@ -5,10 +5,9 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.ts",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.91",
@@ -27,7 +26,8 @@
     "typescript": "^2.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.3",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1"
   },
   "dependencies": {
     "@types/koa": "^2.0.43",
