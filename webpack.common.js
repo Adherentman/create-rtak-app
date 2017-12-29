@@ -37,6 +37,7 @@ module.exports = {
       use: 'awesome-typescript-loader',
       include: __dirname
     },
+    //所有输出的'.js'文件都会通过'source-map-loader'重新处理.
     {
       enforce: "pre", test: /\.js$/,
       loader: "source-map-loader"
