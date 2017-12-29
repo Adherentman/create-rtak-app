@@ -4,12 +4,20 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
+  //入口
   entry: [
     'react-hot-loader/patch',
     'webpack-dev-server/client',
     'webpack/hot/only-dev-server',
     path.resolve(__dirname, 'src/index.tsx'),
   ],
+  //输出
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
+  },
+  //插件
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
@@ -18,15 +26,11 @@ module.exports = {
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin() //启用HMR
   ],
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
-  },
-
+  //解析
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"]
   },
+  //模块
   module: {
     rules: [{
       test: /\.ts|\.tsx$/,
