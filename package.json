@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "server": "node server.ts",
+    "run-server": "tsc -p server && node server/bld/index.js ",
     "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
@@ -33,6 +33,7 @@
     "@types/koa": "^2.0.43",
     "@types/react": "^16.0.31",
     "@types/react-dom": "^16.0.3",
+    "antd": "^3.1.0",
     "koa": "^2.4.1",
     "lodash": "^4.17.4",
     "react": "^16.2.0",

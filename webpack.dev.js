@@ -9,6 +9,6 @@ module.exports = merge(common, {
     contentBase: './dist',
     hot: true,
     host: 'localhost',
-    port: 3000
+    port: 5555
   },
 });
