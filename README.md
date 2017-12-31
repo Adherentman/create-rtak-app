@@ -1,5 +1,7 @@
 # create-rtak-app
 
+[中文查看](./README.cn.md)
+
 create-rtak-app means `create-react-typescript-antd-koa-app`.
 
 use webpack-dev-middleware and express Realization HMR.
@@ -38,6 +40,7 @@ If you want the server to listen to another port, modify the port value in `serv
 `$ yarn run-server`
 
 ## Build your own project
+
 You cloned this project from github with a .git directory at the root derectory. The .git directory could probably be invisible to you because it is hidden. If you plan to create your own git project, delete the the .git repository first.
 
 `$ rm -rf .git`
@@ -46,7 +49,7 @@ You cloned this project from github with a .git directory at the root derectory.
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/Adherentman/parcel-typescript-react-example/issues).
+For bugs and feature requests, [please create an issue](https://github.com/Adherentman/create-rtak-app/issues).
 
 Fork it!
 Create your feature branch: git checkout -b my-new-feature
