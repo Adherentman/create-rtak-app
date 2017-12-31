@@ -13,13 +13,13 @@ module.exports = {
   ],
   //输出
   output: {
-    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: '/',
+    filename: 'bundle.js'
   },
   //插件
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(['dist/*']),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html')
     }),
@@ -35,7 +35,7 @@ module.exports = {
     rules: [{
       test: /\.ts|\.tsx$/,
       use: 'awesome-typescript-loader',
-      include: __dirname
+      include: __dirname,
     },
     //所有输出的'.js'文件都会通过'source-map-loader'重新处理.
     {
@@ -53,10 +53,9 @@ module.exports = {
     },
     //图片加载配置
     {
-      test: /\.(png|svg|jpg|gif)$/,
-      use: [
-        'file-loader'
-      ]
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      include : path.join(__dirname, 'assets/images'),
+      loader  : 'url-loader?limit=30000&name=images/[name].[ext]'
     },
     //字体加载配置
     {

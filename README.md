@@ -29,7 +29,7 @@ use webpack-dev-middleware and express Realization HMR.
 
 Visit localhost:5555 in your browser.
 
-If you want the server to listen to another port, modify the port value in `server.ts` and `webpack.dev.js`.
+If you want the server to listen to another port, modify the port value in `webpack.dev.js`.
 
 #### production environment
 

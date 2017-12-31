@@ -14,7 +14,7 @@ const gridStyle = {
 interface CardsProps {
 
 }
-
+// http://pic2.zhimg.com/50/f9e31e4f02fb06e20ba031ab1e351d55_hd.jpg
 export default class Cards extends React.Component<CardsProps, any> {
   render() {
     return <div style={cardStyle}>

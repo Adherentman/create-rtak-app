@@ -27,7 +27,7 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
 去你的浏览器上访问 localhost: 5555，通常情况来说会帮你自动打开的。
 
-如果你想要换端口号，你需要去根目录下的`server.ts` 和 `webpack.dev.js`同时修改端口号。
+如果你想要换端口号，你需要去根目录下的`webpack.dev.js`修改端口号。
 
 #### 生产环境
 

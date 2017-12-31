@@ -12,6 +12,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.91",
     "awesome-typescript-loader": "^3.4.1",
+    "babel-core": "^6.26.0",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "express": "^4.16.2",
@@ -24,6 +25,8 @@
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.19.1",
     "typescript": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.5",
+    "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.3",
     "webpack-dev-server": "^2.9.7",
