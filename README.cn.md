@@ -50,9 +50,13 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 如果有bug或者功能，请你通过[issue](https://github.com/Adherentman/create-rtak-app/issues)告诉我
 
 Fork it!
+
 Create your feature branch: git checkout -b my-new-feature
+
 Commit your changes: git commit -am 'Add some feature'
+
 Push to the branch: git push origin my-new-feature
+
 Submit a pull request :D
 
 ## 作者
