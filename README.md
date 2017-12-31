@@ -8,7 +8,7 @@ use webpack-dev-middleware and express Realization HMR.
 
 ### Configuration environment
 
-* Node.js Version > 8
+* Node.js Version ^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
 * yarn or NPM
   * if you use NPM, you must delete yarn.lock
 * Typescript
