@@ -20,7 +20,7 @@ export default class Cards extends React.Component<CardsProps, any> {
     return <div style={cardStyle}>
       <Card
         hoverable
-        cover={<img alt="example" src="http://pic2.zhimg.com/50/f9e31e4f02fb06e20ba031ab1e351d55_hd.jpg" />}
+        cover={<img alt="example" src={require("../images/pi.jpg")} />}
         style={gridStyle}>
         <Meta
           title="Thank you for using!"

@@ -15,7 +15,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: "bundle.js"
   },
   //插件
   plugins: [
@@ -53,9 +53,10 @@ module.exports = {
     },
     //图片加载配置
     {
-      test: /\.(jpe?g|png|gif|svg)$/i,
-      include : path.join(__dirname, 'assets/images'),
-      loader  : 'url-loader?limit=30000&name=images/[name].[ext]'
+      test: /\.(png|svg|jpg|gif)$/,
+      use: [
+        'file-loader'
+      ]
     },
     //字体加载配置
     {
