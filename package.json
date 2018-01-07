@@ -10,7 +10,11 @@
     "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
+    "@types/koa": "^2.0.43",
     "@types/lodash": "^4.14.91",
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/mongoose": "^4.7.32",
     "awesome-typescript-loader": "^3.4.1",
     "babel-core": "^6.26.0",
     "clean-webpack-plugin": "^0.1.17",
@@ -21,6 +25,7 @@
     "koa-convert": "^1.2.0",
     "koa-webpack-middleware": "^1.0.7",
     "node-sass": "^4.7.2",
+    "react-hot-loader": "^4.0.0-beta.6",
     "sass-loader": "^6.0.6",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.19.1",
@@ -33,14 +38,11 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
-    "@types/koa": "^2.0.43",
-    "@types/react": "^16.0.31",
-    "@types/react-dom": "^16.0.3",
     "antd": "^3.1.0",
     "koa": "^2.4.1",
     "lodash": "^4.17.4",
+    "mongoose": "^5.0.0-rc2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-hot-loader": "^4.0.0-beta.6"
+    "react-dom": "^16.2.0"
   }
 }
