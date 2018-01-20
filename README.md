@@ -1,5 +1,7 @@
 # create-rtak-app
 
+![](http://ozar6ogjb.bkt.clouddn.com/%E8%84%9A%E6%89%8B%E6%9E%B6.jpeg)
+
 [中文查看](./README.cn.md)
 
 create-rtak-app means `create-react-typescript-antd-koa-app`.
