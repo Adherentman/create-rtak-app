@@ -8,6 +8,8 @@ create-rtak-app means `create-react-typescript-antd-koa-app`.
 
 use webpack-dev-middleware and express Realization HMR.
 
+use React、Typescript、Antd、Koa2、perttier
+
 ## Quick Start
 
 ### Configuration environment

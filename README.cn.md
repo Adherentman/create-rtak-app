@@ -4,6 +4,8 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
 这个脚手架通过`ebpack-dev-middleware and express` 来实现 HMR 的。
 
+用了 React、Typescript、Antd、Koa2、perttier
+
 ## 快速开始
 
 ### 环境配置
