@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "run-server": "tsc -p server && node server/bld/index.js ",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "prettier": "prettier --write '**/*.{tsx,ts,css,md}'"
   },
   "devDependencies": {
     "@types/koa": "^2.0.43",
@@ -25,6 +26,7 @@
     "koa-convert": "^1.2.0",
     "koa-webpack-middleware": "^1.0.7",
     "node-sass": "^4.7.2",
+    "prettier": "^1.10.2",
     "react-hot-loader": "^4.0.0-beta.6",
     "sass-loader": "^6.0.6",
     "source-map-loader": "^0.2.3",

@@ -1,11 +1,9 @@
-import * as React from 'react';
-import './style.scss';
+import * as React from "react";
+import "./style.scss";
 
-import Cards from './components/Card';
+import Cards from "./components/Card";
 
-interface AppProps{
-
-}
+interface AppProps {}
 
 export default class App extends React.Component<AppProps, any> {
   render() {

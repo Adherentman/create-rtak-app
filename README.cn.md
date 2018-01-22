@@ -2,7 +2,7 @@
 
 create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
-这个脚手架通过`ebpack-dev-middleware and express` 来实现HMR的。
+这个脚手架通过`ebpack-dev-middleware and express` 来实现 HMR 的。
 
 ## 快速开始
 
@@ -10,7 +10,7 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
 * Node.js 版本要求： ^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
 * yarn or NPM
-  * 如果你用npm，那么你必须要去删掉yarn.lock
+  * 如果你用 npm，那么你必须要去删掉 yarn.lock
 * Typescript
 
 ### 步骤
@@ -39,15 +39,15 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
 ## Build your own project
 
-你从github上clone下来会有我的`.git`。因为它隐藏着，所以你看不见。如果你计划着要创建属于你自己的项目。你需要去执行以下命令：
+你从 github 上 clone 下来会有我的`.git`。因为它隐藏着，所以你看不见。如果你计划着要创建属于你自己的项目。你需要去执行以下命令：
 
 `$ rm -rf .git`
 
 ## 贡献
 
-欢迎大家pr和stars。
+欢迎大家 pr 和 stars。
 
-如果有bug或者功能，请你通过[issue](https://github.com/Adherentman/create-rtak-app/issues)告诉我
+如果有 bug 或者功能，请你通过[issue](https://github.com/Adherentman/create-rtak-app/issues)告诉我
 
 Fork it!
 
