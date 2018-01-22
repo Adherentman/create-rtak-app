@@ -5,6 +5,7 @@
     "noImplicitAny": true,
     "module": "es6",
     "moduleResolution": "node",
+    "importHelpers": true,    //需要tslib，为了不让同样的辅助函数重复的出现在多个文件中
     "target": "es5",
     "lib": ["dom", "es6"],
     "jsx": "react",
