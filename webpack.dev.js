@@ -4,7 +4,7 @@ const common = require('./webpack.common.js');
 
 //开发环境
 module.exports = merge(common, {
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   //开发中Server
   devServer: {
     contentBase: path.join(__dirname, "dist"),

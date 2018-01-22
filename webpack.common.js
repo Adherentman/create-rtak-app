@@ -32,39 +32,35 @@ module.exports = {
   },
   //模块
   module: {
-    rules: [{
-      test: /\.ts|\.tsx$/,
-      use: 'awesome-typescript-loader',
-      include: __dirname,
-    },
-    //所有输出的'.js'文件都会通过'source-map-loader'重新处理.
-    {
-      enforce: "pre", test: /\.js$/,
-      loader: "source-map-loader"
-    },
-    //scss配置
-    {
-      test: /\.scss$/,
-      use: [
-        'style-loader',
-        'css-loader',
-        'sass-loader'
-      ]
-    },
-    //图片加载配置
-    {
-      test: /\.(png|svg|jpg|gif)$/,
-      use: [
-        'file-loader'
-      ]
-    },
-    //字体加载配置
-    {
-      test: /\.(woff|woff2|eot|ttf|otf)$/,
-      use: [
-        'file-loader'
-      ]
-    },
+    rules: [
+      {
+        test: /\.ts|\.tsx$/,
+        use: 'awesome-typescript-loader',
+        include: __dirname,
+      },
+      //scss配置
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      //图片加载配置
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader'
+        ]
+      },
+      //字体加载配置
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader'
+        ]
+      },
     ],
-  }
+  },
 };
