@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
     "run-server": "tsc -p server && node server/bld/index.js ",
     "build": "webpack --config webpack.prod.js",
     "prettier": "prettier --write '**/*.{tsx,ts,css,md}'"
@@ -16,6 +15,7 @@
     "@types/mongoose": "^4.7.32",
     "@types/react": "^16.0.31",
     "@types/react-dom": "^16.0.3",
+    "@types/webpack": "^4.1.1",
     "awesome-typescript-loader": "^3.4.1",
     "babel-core": "^6.26.0",
     "clean-webpack-plugin": "^0.1.17",
