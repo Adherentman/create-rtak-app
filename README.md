@@ -29,19 +29,17 @@ use React、Typescript、Antd、Koa2、perttier
 
 #### development environment
 
-`$ yarn start`
+`$ yarn run-start`
 
-Visit localhost:5555 in your browser.
+Use koa-webpack-middleware achieve HMR.
+
+Visit localhost:8888 in your browser.
 
 If you want the server to listen to another port, modify the port value in `webpack.dev.js`.
 
 #### production environment
 
 `$ yarn build`
-
-#### Back end service
-
-`$ yarn run-server`
 
 ## Build your own project
 

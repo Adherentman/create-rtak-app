@@ -25,19 +25,16 @@ create-rtak-app 意思是 `create-react-typescript-antd-koa-app`.
 
 #### 开发环境
 
-`$ yarn start`
+`$ yarn run-start`
 
-去你的浏览器上访问 localhost: 5555，通常情况来说会帮你自动打开的。
+用了koa-webpack-middleware中间件实现了koa进行hmr。
+去你的浏览器上访问 localhost: 8888，通常情况来说会帮你自动打开的。
 
 如果你想要换端口号，你需要去根目录下的`webpack.dev.js`修改端口号。
 
 #### 生产环境
 
 `$ yarn build`
-
-#### 后端服务
-
-`$ yarn run-server`
 
 ## Build your own project
 
